@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body {
+  color: white;
+  background-color: rgb(6, 36, 74);
+}
+button,
+input {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  background-color: white;
+}
+button {
+  min-width: 120px;
+}
+input {
+  width: 100%;
+}
+fieldset {
+  padding: 0;
+  border: none;
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.cpm-login__form {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 30px 50px;
+}
